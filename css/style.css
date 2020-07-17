@@ -1,0 +1,40 @@
+.mainform{
+    width: 500px;
+    height: 140px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 1px 1px 100px green;
+    border-radius: 10px;
+    
+}
+.mainform .phone_cl{
+
+    top: 40px;
+    margin-left: auto;
+    position: relative;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    height: 30px;
+    font-weight: bold;
+    font-size: large;
+    width: 160px;
+    border: solid 1px #c7c7c7;
+    
+}
+.mainform .pull_wanted{
+    text-transform: uppercase;
+    background-color: green;
+    color: honeydew;
+    font-weight: bold;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 160px;
+    margin-top: 60px;
+}
+input:focus{outline: none;}

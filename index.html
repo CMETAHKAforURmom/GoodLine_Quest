@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodLine Инкубатор Задание 1</title>
+    <link rel="stylesheet" href = "css/style.css">
+    <script src="jquery-3.5.1.js"></script>
+    <script src="jquery.maskedinput.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="mainform">
+            <input  id="phone" autofocus type="text" class = "phone_cl" placeholder="+7 ___ ___ ____">
+            <script>
+                $(function(){
+                    $("#phone").focus;
+                    $("#phone").mask("+7 999 999 9999");
+                });
+            </script>	
+            <button class = "pull_wanted" id="btn">Отправить заявку</button>
+            <script>
+                btn.onclick=function(){
+                    var pattern = "+7 999 999 9999";
+                    var text = document.getElementById("phone").value;
+                    if(text == 0){
+                        alert("Неверные значения номера телефона!")
+                    }else{
+
+
+                    }
+                }
+            </script>
+        </div>
+    </header>
+</body>
+</html>
