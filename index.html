@@ -12,25 +12,10 @@
     <header>
         <div class="mainform">
             <input  id="phone" autofocus type="text" class = "phone_cl" placeholder="+7 ___ ___ ____">
-            <script>
-                $(function(){
-                    $("#phone").focus;
-                    $("#phone").mask("+7 999 999 9999");
-                });
-            </script>	
             <button class = "pull_wanted" id="btn">Отправить заявку</button>
-            <script>
-                btn.onclick=function(){
-                    var pattern = "+7 999 999 9999";
-                    var text = document.getElementById("phone").value;
-                    if(text == 0){
-                        alert("Неверные значения номера телефона!")
-                    }else{
-                        alert(text);
-                    }
-                }
-            </script>
+            
         </div>
     </header>
+    <script src = "script.js"></script>
 </body>
 </html>
